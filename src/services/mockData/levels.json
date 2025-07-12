@@ -1,0 +1,99 @@
+[
+  {
+    "Id": 1,
+    "name": "Green Hills",
+    "platforms": [
+      { "x": 0, "y": 550, "width": 800, "height": 50, "type": "grass" },
+      { "x": 200, "y": 450, "width": 100, "height": 20, "type": "grass" },
+      { "x": 400, "y": 350, "width": 100, "height": 20, "type": "grass" },
+      { "x": 600, "y": 250, "width": 100, "height": 20, "type": "grass" },
+      { "x": 150, "y": 150, "width": 100, "height": 20, "type": "grass" },
+      { "x": 500, "y": 150, "width": 100, "height": 20, "type": "grass" }
+    ],
+    "enemies": [
+      { "x": 220, "y": 430, "velocityX": 1, "patrolStart": 200, "patrolEnd": 280, "type": "goomba" },
+      { "x": 420, "y": 330, "velocityX": -1, "patrolStart": 400, "patrolEnd": 480, "type": "goomba" }
+    ],
+    "collectibles": [
+      { "x": 240, "y": 420, "collected": false, "value": 100, "type": "coin" },
+      { "x": 440, "y": 320, "collected": false, "value": 100, "type": "coin" },
+      { "x": 640, "y": 220, "collected": false, "value": 100, "type": "coin" },
+      { "x": 190, "y": 120, "collected": false, "value": 100, "type": "coin" },
+      { "x": 540, "y": 120, "collected": false, "value": 100, "type": "coin" }
+    ],
+    "playerStart": { "x": 50, "y": 500 },
+    "goal": { "x": 720, "y": 480 }
+  },
+  {
+    "Id": 2,
+    "name": "Rocky Cliffs",
+    "platforms": [
+      { "x": 0, "y": 550, "width": 150, "height": 50, "type": "stone" },
+      { "x": 250, "y": 550, "width": 150, "height": 50, "type": "stone" },
+      { "x": 500, "y": 550, "width": 300, "height": 50, "type": "stone" },
+      { "x": 100, "y": 450, "width": 80, "height": 20, "type": "stone" },
+      { "x": 300, "y": 400, "width": 80, "height": 20, "type": "stone" },
+      { "x": 450, "y": 350, "width": 100, "height": 20, "type": "stone" },
+      { "x": 200, "y": 300, "width": 80, "height": 20, "type": "stone" },
+      { "x": 350, "y": 200, "width": 100, "height": 20, "type": "stone" },
+      { "x": 600, "y": 150, "width": 80, "height": 20, "type": "stone" }
+    ],
+    "enemies": [
+      { "x": 120, "y": 430, "velocityX": 1, "patrolStart": 100, "patrolEnd": 160, "type": "goomba" },
+      { "x": 320, "y": 380, "velocityX": -1, "patrolStart": 300, "patrolEnd": 360, "type": "goomba" },
+      { "x": 470, "y": 330, "velocityX": 1, "patrolStart": 450, "patrolEnd": 530, "type": "goomba" },
+      { "x": 620, "y": 130, "velocityX": -1, "patrolStart": 600, "patrolEnd": 660, "type": "goomba" }
+    ],
+    "collectibles": [
+      { "x": 140, "y": 420, "collected": false, "value": 150, "type": "coin" },
+      { "x": 340, "y": 370, "collected": false, "value": 150, "type": "coin" },
+      { "x": 500, "y": 320, "collected": false, "value": 150, "type": "coin" },
+      { "x": 240, "y": 270, "collected": false, "value": 150, "type": "coin" },
+      { "x": 400, "y": 170, "collected": false, "value": 150, "type": "coin" },
+      { "x": 640, "y": 120, "collected": false, "value": 150, "type": "coin" },
+      { "x": 320, "y": 520, "collected": false, "value": 100, "type": "coin" }
+    ],
+    "playerStart": { "x": 50, "y": 500 },
+    "goal": { "x": 720, "y": 480 }
+  },
+  {
+    "Id": 3,
+    "name": "Sky Temple",
+    "platforms": [
+      { "x": 0, "y": 550, "width": 100, "height": 50, "type": "stone" },
+      { "x": 200, "y": 550, "width": 100, "height": 50, "type": "stone" },
+      { "x": 400, "y": 550, "width": 100, "height": 50, "type": "stone" },
+      { "x": 600, "y": 550, "width": 200, "height": 50, "type": "stone" },
+      { "x": 150, "y": 450, "width": 60, "height": 20, "type": "stone" },
+      { "x": 350, "y": 400, "width": 60, "height": 20, "type": "stone" },
+      { "x": 500, "y": 350, "width": 60, "height": 20, "type": "stone" },
+      { "x": 100, "y": 300, "width": 60, "height": 20, "type": "stone" },
+      { "x": 300, "y": 250, "width": 80, "height": 20, "type": "stone" },
+      { "x": 550, "y": 200, "width": 60, "height": 20, "type": "stone" },
+      { "x": 200, "y": 150, "width": 60, "height": 20, "type": "stone" },
+      { "x": 400, "y": 100, "width": 100, "height": 20, "type": "stone" }
+    ],
+    "enemies": [
+      { "x": 170, "y": 430, "velocityX": 1, "patrolStart": 150, "patrolEnd": 190, "type": "goomba" },
+      { "x": 370, "y": 380, "velocityX": -1, "patrolStart": 350, "patrolEnd": 390, "type": "goomba" },
+      { "x": 120, "y": 280, "velocityX": 1, "patrolStart": 100, "patrolEnd": 140, "type": "goomba" },
+      { "x": 340, "y": 230, "velocityX": -1, "patrolStart": 300, "patrolEnd": 360, "type": "goomba" },
+      { "x": 570, "y": 180, "velocityX": 1, "patrolStart": 550, "patrolEnd": 590, "type": "goomba" },
+      { "x": 440, "y": 80, "velocityX": -1, "patrolStart": 400, "patrolEnd": 480, "type": "goomba" }
+    ],
+    "collectibles": [
+      { "x": 180, "y": 420, "collected": false, "value": 200, "type": "coin" },
+      { "x": 380, "y": 370, "collected": false, "value": 200, "type": "coin" },
+      { "x": 530, "y": 320, "collected": false, "value": 200, "type": "coin" },
+      { "x": 130, "y": 270, "collected": false, "value": 200, "type": "coin" },
+      { "x": 340, "y": 220, "collected": false, "value": 200, "type": "coin" },
+      { "x": 580, "y": 170, "collected": false, "value": 200, "type": "coin" },
+      { "x": 230, "y": 120, "collected": false, "value": 200, "type": "coin" },
+      { "x": 450, "y": 70, "collected": false, "value": 500, "type": "coin" },
+      { "x": 250, "y": 520, "collected": false, "value": 100, "type": "coin" },
+      { "x": 450, "y": 520, "collected": false, "value": 100, "type": "coin" }
+    ],
+    "playerStart": { "x": 50, "y": 500 },
+    "goal": { "x": 720, "y": 480 }
+  }
+]
